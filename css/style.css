@@ -32,7 +32,7 @@
       width: 310px;
       height: 160px;
       background: hsl(228, 56%, 26%);
-      border-radius: 10px 100px 10px 10px;
+      border-radius: 10px 90px 10px 10px;
       padding: 40px 0 0 40px;
   }
   
@@ -60,17 +60,37 @@
   }
   
   .wrapper-content-right {
-      width: 540px;
-      height: 150px;
+      width: 460px;
+      height: 70px;
       background: hsl(228, 56%, 26%);
       border-radius: 10px;
       font-size: 1.4rem;
       color: hsl(243, 100%, 93%);
       position: relative;
+      padding: 40px;
   }
-  /* .storage-left-value {
+  
+  .storage-left {
+      width: 180px;
+      height: 70px;
+      background: #fff;
+      border-radius: 10px;
+      color: hsl(229, 7%, 55%);
+      font-size: 1.2rem;
       font-weight: 700;
-  } */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .storage-left-value {
+      font-weight: 700;
+      font-size: 4rem;
+      color: hsl(229, 57%, 11%);
+      margin: 0 12px 0 0;
+  }
+  
+  .used-capacity {}
   
   .used-capacity-value {
       font-weight: 700;
@@ -86,7 +106,7 @@
       margin: 10px 0;
       width: 375px;
       border-radius: 10px;
-      background: hsl(229, 57%, 11%);
+      background: #151E49;
       padding-right: 85px;
       padding-top: 1px;
       padding: 1px 85px 1px 3px;
@@ -114,4 +134,12 @@
   .storage-left {
       position: absolute;
       right: 0;
+      top: -10px;
+  }
+  
+  .range-values {
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.2rem;
+      font-weight: 600;
   }
