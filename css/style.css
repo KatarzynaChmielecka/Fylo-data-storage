@@ -9,20 +9,59 @@
   - Very Dark Blue: hsl(229,  57%,  11%) body {} */
   
   .wrapper {
-      min-height: 800px;
+      height: 820px;
       /* width: 1440px; */
       background: hsl(229, 57%, 11%);
       background-image: url('../images/bg-desktop.png');
       /* background-size: 100% auto; */
       background-position-y: bottom;
       background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
   }
   
-  .attribution {
-      font-size: 11px;
-      text-align: center;
+  .wrapper-content {
+      width: 920px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
   }
   
-  .attribution a {
-      color: hsl(228, 45%, 44%);
+  .wrapper-content-left {
+      width: 310px;
+      height: 160px;
+      background: hsl(228, 56%, 26%);
+      border-radius: 10px 100px 10px 10px;
+      padding: 40px 0 0 40px;
+  }
+  
+  .icons {
+      padding: 30px 0 0 0;
+  }
+  
+  .icons img {
+      background: hsl(229, 57%, 11%);
+      border-radius: 10px;
+  }
+  
+  .icons img:first-child {
+      padding: 13px 15px;
+      margin: 0 15px 0 0;
+  }
+  
+  .icons img:nth-child(2) {
+      padding: 15px 13px;
+      margin: 0 15px 0 0;
+  }
+  
+  .icons img:last-child {
+      padding: 17px 13px;
+  }
+  
+  .wrapper-content-right {
+      width: 540px;
+      height: 150px;
+      background: hsl(228, 56%, 26%);
+      border-radius: 10px;
   }
