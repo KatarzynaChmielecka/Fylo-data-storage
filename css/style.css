@@ -9,7 +9,7 @@
   - Very Dark Blue: hsl(229,  57%,  11%) body {} */
   
   .wrapper {
-      height: 820px;
+      height: 800px;
       /* width: 1440px; */
       background: hsl(229, 57%, 11%);
       background-image: url('../images/bg-desktop.png');
@@ -26,6 +26,7 @@
       display: flex;
       align-items: flex-end;
       justify-content: space-between;
+      margin-top: -20px;
   }
   
   .wrapper-content-left {
@@ -70,28 +71,6 @@
       padding: 40px;
   }
   
-  .storage-left {
-      width: 180px;
-      height: 70px;
-      background: #fff;
-      border-radius: 10px;
-      color: hsl(229, 7%, 55%);
-      font-size: 1.2rem;
-      font-weight: 700;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  
-  .storage-left-value {
-      font-weight: 700;
-      font-size: 4rem;
-      color: hsl(229, 57%, 11%);
-      margin: 0 12px 0 0;
-  }
-  
-  .used-capacity {}
-  
   .used-capacity-value {
       font-weight: 700;
   }
@@ -131,15 +110,42 @@
       margin-left: -2px;
   }
   
-  .storage-left {
-      position: absolute;
-      right: 0;
-      top: -10px;
-  }
-  
   .range-values {
       display: flex;
       justify-content: space-between;
       font-size: 1.2rem;
       font-weight: 600;
+  }
+  
+  .storage-left {
+      width: 180px;
+      height: 70px;
+      background: #fff;
+      border-radius: 10px 10px 0 10px;
+      color: hsl(229, 7%, 55%);
+      font-size: 1.2rem;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: -50px;
+      right: 40px;
+  }
+  
+  .storage-left-value {
+      font-weight: 700;
+      font-size: 4rem;
+      color: hsl(229, 57%, 11%);
+      margin: 0 12px 0 0;
+  }
+  
+  .speech-bubble-triangle {
+      width: 0;
+      height: 0;
+      border-top: 20px solid #fff;
+      border-left: 20px solid transparent;
+      position: absolute;
+      right: 40px;
+      top: 20px;
   }
