@@ -141,6 +141,7 @@
           @media screen and (max-width: 375px) {
               .wrapper {
                   height: 100vh;
+                  background-image: url('../images/bg-mobile.png');
               }
               .wrapper-content {
                   flex-direction: column;
