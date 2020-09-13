@@ -5,7 +5,7 @@
           }
           
           .wrapper {
-              height: 800px;
+              height: 100vh;
               background: #0C122C;
               background-image: url('../images/bg-desktop.png');
               background-position-y: bottom;
@@ -142,6 +142,7 @@
               .wrapper {
                   height: 100vh;
                   background-image: url('../images/bg-mobile.png');
+                  background-size: cover;
               }
               .wrapper-content {
                   flex-direction: column;
@@ -154,7 +155,6 @@
               }
               .wrapper-content-right {
                   width: 259px;
-                  /* padding-left: 30px; */
                   padding: 35px 33px 55px 33px;
                   display: flex;
                   flex-direction: column;
